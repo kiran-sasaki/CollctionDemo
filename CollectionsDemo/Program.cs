@@ -6,7 +6,7 @@ namespace CollectionsDemo
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to CollectionsDemo");
+            Colections.DoListDemo();
         }
     }
 }
