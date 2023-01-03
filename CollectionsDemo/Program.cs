@@ -8,7 +8,8 @@ namespace CollectionsDemo
         {
             //Colections.DoListDemo();
             //Colections.DoStackDemo();
-            Colections.DoQueueDemo();
+            //Colections.DoQueueDemo();
+            Colections.DoSetDemo();
         }
     }
 }

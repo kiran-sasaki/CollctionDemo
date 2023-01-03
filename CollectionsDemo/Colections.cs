@@ -57,5 +57,17 @@ namespace CollectionsDemo
             }
 
         }
+        public static void DoSetDemo()
+        {
+            var set = new HashSet<string>();
+            set.Add("Kakashi");
+            set.Add("Orochimaru");
+            set.Add("Hashirama");
+            HashSet<string>.Enumerator enumerator = set.GetEnumerator();
+            while( enumerator.MoveNext())
+            {
+                Console.WriteLine(enumerator.Current);
+            }
+        }
     }
 }
