@@ -36,5 +36,26 @@ namespace CollectionsDemo
                 Console.WriteLine(item);
             }
         }
+        public static void DoQueueDemo()
+        {
+            Queue<string> queue = new Queue<string>();
+            queue.Enqueue("Dazai");
+            queue.Enqueue("Kunikida");
+            queue.Enqueue("Kyoko");
+            Console.WriteLine("Head "+queue.Peek());
+            foreach(var item in queue)
+            {
+                Console.WriteLine(item);
+            }
+            string dequeue = queue.Dequeue();
+            Console.WriteLine("Dequeue Element "+dequeue);
+            Console.WriteLine("Itrating The Queue");
+            Queue<string>.Enumerator enumerator = queue.GetEnumerator();
+            while(enumerator.MoveNext())
+            {
+                Console.WriteLine(enumerator.Current);
+            }
+
+        }
     }
 }

@@ -6,8 +6,9 @@ namespace CollectionsDemo
     {
         public static void Main(string[] args)
         {
-            Colections.DoListDemo();
-            Colections.DoStackDemo();
+            //Colections.DoListDemo();
+            //Colections.DoStackDemo();
+            Colections.DoQueueDemo();
         }
     }
 }
