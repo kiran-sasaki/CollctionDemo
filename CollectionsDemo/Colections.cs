@@ -22,5 +22,19 @@ namespace CollectionsDemo
                 Console.WriteLine(items);
             }
         }
+        public static void DoStackDemo()
+        {
+            Console.WriteLine("\n Stack Demo");
+            Stack<string> stack = new Stack<string>();
+            stack.Push("Luffy");
+            stack.Push("Zoro");
+            stack.Push("Sanji");
+            stack.Push("Nami");
+            string pop=stack.Pop();
+            foreach(var item in stack)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }

@@ -7,6 +7,7 @@ namespace CollectionsDemo
         public static void Main(string[] args)
         {
             Colections.DoListDemo();
+            Colections.DoStackDemo();
         }
     }
 }
