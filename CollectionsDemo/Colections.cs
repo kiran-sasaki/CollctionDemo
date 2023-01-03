@@ -69,5 +69,17 @@ namespace CollectionsDemo
                 Console.WriteLine(enumerator.Current);
             }
         }
+        public static void DoDictionaryDemo()
+        {
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            dictionary.Add(10,"Rashford");
+            dictionary.Add(25, "Sancho");
+            dictionary.Add(8, "Bruno");
+            Console.WriteLine("Access value using key(key=100):",dictionary[10]);
+            foreach(var element in dictionary)
+            {
+                Console.WriteLine("Key: "+element.Key+" Value: "+element.Value);
+            }
+        }
     }
 }
