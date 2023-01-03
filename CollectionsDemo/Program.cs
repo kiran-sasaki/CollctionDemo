@@ -9,7 +9,8 @@ namespace CollectionsDemo
             //Colections.DoListDemo();
             //Colections.DoStackDemo();
             //Colections.DoQueueDemo();
-            Colections.DoSetDemo();
+            //Colections.DoSetDemo();
+            Colections.DoDictionaryDemo();
         }
     }
 }
